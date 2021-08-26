@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music App</title>
+    <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Akaya Kanadaka' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.3.0/css/all.min.css" integrity="sha512-UJqci0ZyYcQ0AOJkcIkUCxLS2L6eNcOr7ZiypuInvEhO9uqIDi349MEFrqBzoy1QlfcjfURHl+WTMjEdWcv67A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 align='center' id='header'>Musify 🎵</h1>
+        <div class="music_container">
+            <h2 id='title'></h2>
+            <h3 id='artist'></h3>
+
+                <img src= "images/sahil-1.jpg" alt="">
+
+            
+            <audio src=""></audio>
+
+            <div class="progressbar_container" id='progress_container'>
+                <div class="progress_duration_meter">
+                    <div id="current_time">00:00</div>
+                    <div id="duration">04:15</div>
+                </div>
+                <div class="progress_div" id="progress_div">
+                    <div class="progress" id="progress">
+    
+                    </div>
+                </div>
+            </div>
+
+            <div class="music_controls">
+                <i class="fas fa-backward" id='prev' title='Previous'></i>
+                <i class="fas fa-play main_button" id='play' title='Play'></i>
+                <i class="fas fa-forward" id='next' title='Next'></i>
+            </div>
+
+            <div class='volume_controls'>
+                <i class="fas fa-volume vol_icon" id='vol_icon'></i>
+                <input type="range" min="0" id='slider' max="100" value="70">
+            </div>
+        </div>
+        
+        
+        <h1 align='center' id='footer'> - Sahil Sachin Donde 😀</h1>
+        <script src="script.js"></script> 
+</body>
+</html>
+
