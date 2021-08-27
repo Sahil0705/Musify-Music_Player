@@ -209,7 +209,7 @@ img
 }
 #footer
 {
-    margin-top:5rem;
+    margin-top:4.5rem;
     font-weight: bold;
     font-family: 'Akaya Kanadaka';font-size: 24px;
 }
@@ -232,7 +232,7 @@ img
     text-transform: capitalize;
     letter-spacing: 0.1rem;
     font-size: 1.5rem;
-    margin-top: 1.1rem;
-    margin-bottom: 1.1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     font-weight: 300;
 }
